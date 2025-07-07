@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>FastTechFoodsAuth.Security</PackageId>
-    <PackageVersion>1.0.2</PackageVersion>
+    <PackageVersion>1.0.3</PackageVersion>
     <Authors>FastTechFoods Team</Authors>
     <Description>Biblioteca compartilhada para autenticação JWT padronizada nos projetos FastTechFoods</Description>
     <PackageTags>jwt;authentication;fasttechfoods;security</PackageTags>
