@@ -1,5 +1,4 @@
 # FastTechFoodsAuth.Security
-
 Biblioteca compartilhada para autenticação JWT padronizada nos projetos FastTechFoods.
 
 ## ✨ Funcionalidades
