@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>FastTechFoodsAuth.Security</PackageId>
-    <PackageVersion>1.0.1</PackageVersion>
+    <PackageVersion>1.0.2</PackageVersion>
     <Authors>FastTechFoods Team</Authors>
     <Description>Biblioteca compartilhada para autenticação JWT padronizada nos projetos FastTechFoods</Description>
     <PackageTags>jwt;authentication;fasttechfoods;security</PackageTags>
@@ -20,10 +20,8 @@
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.2.1" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Update="docs\README.md">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="docs\README.md" Pack="true" PackagePath="\"/>
+	</ItemGroup>
 
 </Project>
